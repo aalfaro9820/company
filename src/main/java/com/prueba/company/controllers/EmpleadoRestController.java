@@ -62,7 +62,6 @@ public class EmpleadoRestController {
     public ResponseEntity<?> create(@RequestBody Empleado empleado) {
         Empleado empleadoNew = null;
         Map<String, Object> response = new HashMap<>();
-
         try {
             empleadoNew = empleadoService.save(empleado);
         } catch (DataAccessException e) {

@@ -26,7 +26,7 @@ public class Empleado implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public static final String SEQ = "seq_gt_empleados";
+    public static final String SEQ = "seq_gt_empleado";
 
     @Id
     @Column(name = "id_empleado")
@@ -43,6 +43,21 @@ public class Empleado implements Serializable {
 
     public Empleado() {
     }
+
+    public Empleado(Integer id, BigInteger dni, String nombre, String cargo, Date fechaIngreso) {
+        this.id = id;
+        this.dni = dni;
+        this.nombre = nombre;
+        this.cargo = cargo;
+        this.fechaIngreso = fechaIngreso;
+    }
+
+    public Empleado(Integer id, BigInteger dni, String nombre) {
+        this.id = id;
+        this.dni = dni;
+        this.nombre = nombre;
+    }
+    
 
     public Empleado(Integer id) {
         this.id = id;
