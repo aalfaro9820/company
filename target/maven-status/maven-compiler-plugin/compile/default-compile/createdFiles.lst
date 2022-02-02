@@ -1,1 +1,6 @@
+com\prueba\company\controllers\EmpleadoRestController.class
+com\prueba\company\entity\Empleado.class
+com\prueba\company\service\EmpleadoServiceImpl.class
+com\prueba\company\service\IEmpleadoService.class
 com\prueba\company\CompanyApplication.class
+com\prueba\company\dao\IEmpleadoDao.class
