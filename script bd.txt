@@ -1,0 +1,26 @@
+create database "company"
+    with 
+    owner = postgres
+    encoding = 'UTF8'
+    connection limit = -1;
+/
+
+—estandar
+
+— gt = gestion 
+
+create table gt_empleados(
+	 id_empleado integer,
+ 	 dni integer,
+	 nombre varchar(2000),
+	 fecha_ingreso  date,
+     cargo varchar(2000),
+ 	 primary key (id_empleado));	  
+/
+create sequence seq_gt_empleados
+
+
+
+
+	  
+		  		  
