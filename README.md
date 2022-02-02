@@ -2,6 +2,8 @@
 
 Se realizon patron de diseño modelo vista controlador
 
+Se utilizo java 8
+
 Se realizo programacion orientada a objetos
 
 Se utilizo base de datos Postgres 
